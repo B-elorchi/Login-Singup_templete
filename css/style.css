@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+}
+.container{
+    background-color: #e91e63;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 0 grey;
+    border-radius: 116px 0px 115px 0px;
+    position: relative;
+   
+}
+.parent{
+    padding: 60px;
+    display: grid;
+}
+.container .child{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.container  .child .input-fill{
+    width: 70%;
+    height: 31px;
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: serif;
+}
+.container  .child .input-fill:focus{
+    outline: none;
+    box-shadow: 1px 2px 0 black;
+    
+}
+.container  .child .ok{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container  .child .ok .button{
+    padding: 10px;
+    width: 21%;
+    /* height: 39px; */
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background: aliceblue;
+    font-family: serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+.container  .child .ok .button:hover{
+    background-color:#6e0025;
+    color: aliceblue;
+    padding-top: 10px;
+    border: 2px solid #6e0025;
+}
+.container  .child .ok .button a{
+    text-decoration: none;
+    color: #000;
+}
+.container  .child .ok .button a:hover{
+   
+    color: #fff;
+}
+.container  .child .a:hover{
+    background-color:#6e0025;
+    color: aliceblue;
+    padding-top: 10px;
+    border: 3px solid #6e0025;
+}
+.container  .child .a{
+    padding: 10px;
+    background-color: aliceblue;
+    border: 3px solid red;
+    text-decoration: none;
+    border-radius: 32px;
+    color: #333;
+    font-family: serif;
+    font-weight: 900;
+}
+.user{
+    position: absolute;
+    left: 21%;
+    top: 13.1%;
+    color:#e91e63;
+}
+.pass{
+    left: 21%;
+    top: 29%;
+    position: absolute;
+    color:#e91e63;
+}
